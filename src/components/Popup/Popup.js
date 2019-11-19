@@ -1,6 +1,6 @@
 import React from "react";  
 import { Link } from "react-router-dom";
-import Particles from "react-particles-js";
+
 import logo from "../../images/project3.png"
 import "./Popup.css";  
 
@@ -11,32 +11,7 @@ class Popup extends React.Component {
   render() {  
 return (   
 <>
-<Particles
-params={{
-    particles: {
-        line_linked: {
-            shadow: {
-                enable: true,
-                color: "#FF0000",
-                blur: 10,
-                width: "2px;"
-            }
-        }
-    },
-    polygon: {
-        draw: {
-            stroke: {
-                color: ["#FF0000", "#FFFFFF" ]
-            }
-        }
-    }
-}}
-style={{
-    width: "100%",
-    // backgroundImage: `url(${logo})` 
-    color: "red"
-  }}
-/>
+
 <div className="popup">  
     <div className="popup\_inner">  
     <div className="jumbotron jumbotron-fluid">
