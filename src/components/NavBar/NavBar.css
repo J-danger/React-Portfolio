@@ -10,6 +10,12 @@
     color: whitesmoke;
 }
 
+.active {
+    text-decoration: none;    
+    font-size: 40px;
+    
+}
+
 #NavBarLinks-container{
     /* text-align: center; */
     text-align: center;
@@ -24,5 +30,7 @@
     position: relative;
     
 }
+
+
 
 
