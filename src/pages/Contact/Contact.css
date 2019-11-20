@@ -11,3 +11,35 @@
     box-shadow: 0 3px 6px #000000, 0 3px 6px #000000;  
 }
 
+
+
+
+@media only screen and (max-width: 600){ 
+    #contact-form  {
+        width: 90%;
+    }
+    }
+
+@media only screen and (max-width: 700px){ 
+    #contact-form  {
+        width: 80%;
+    }
+    }
+
+@media only screen and (max-width: 900px){ 
+    #contact-form  {
+        width: 90%;
+    }
+    }
+
+@media only screen and (max-width: 1200px){ 
+    #contact-form  {
+        width: 70%;
+    }
+    }
+
+@media only screen and (max-width: 1600px){ 
+    #contact-form  {
+        width: 50%;
+    }
+    }

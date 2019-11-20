@@ -35,6 +35,19 @@
     
 }
 
+@media only screen and (max-width: 500){ 
+    .NavBarLinks  {
+        margin: 5px;
+    }
+    }
+
+@media only screen and (max-width: 700px){ 
+    .NavBarLinks  {
+        margin: 20px;
+        
+    }
+    }
+
 
 
 
