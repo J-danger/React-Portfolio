@@ -20,7 +20,7 @@ class Landing extends Component{
   render(){
   return (
 
-    <>    
+  <>    
     {this.state.showPopup ?  
   <>
   <Particles
