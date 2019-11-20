@@ -30,7 +30,7 @@ html {
     right: 0;  
     bottom: 0;  
     margin: auto; 
-    overflow: scroll;
+  
 }
 
 #aboutMe-container {
@@ -42,22 +42,14 @@ html {
 
 
 
-@media only screen and (min-width: 1440px){ 
-    body  {
-    background: url("https://source.unsplash.com/collection/8945062/2560x1080") no-repeat center center fixed;     
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-   
-    };
-    .layer {
-        background-color: rgba(0, 0, 0, 0.50);
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        height: 100%;
+@media only screen and (max-width: 482px){ 
+   .layer{
+         overflow: scroll;
+   }
     }
+
+@media only screen and (min-width: 483px){ 
+   .layer{
+         overflow: hide;
+   }
     }
