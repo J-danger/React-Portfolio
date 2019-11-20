@@ -7,7 +7,7 @@ function Thumbnail(props) {
     <>
        
             <div className="project">
-                <a href={props.link} target="_blank">
+                <a href={props.link} target="_blank"  rel="noopener noreferrer">
                     <div className="project-image">
                     <img 
                         src={props.image} 
