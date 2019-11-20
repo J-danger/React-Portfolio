@@ -21,24 +21,28 @@ function Projects(props) {
           image={project3}
           title="Stack Underflow"
           category="A MERN Stack forum for web dev beginners"
+          
         />
         <Thumbnail
           link="https://j-danger.github.io/Clicky-game/"
           image={clicky}
           title="Clicky Game"
           category="A memory game using states in React "
+         
         />
         <Thumbnail
           link="https://frightening-eyeballs-04450.herokuapp.com/"
           image={webscrape}
           title="WebScrapper"
           category="A Coindesk Web-scrapper"
+          target="_blank"
         />
           <Thumbnail
           link="https://calm-lake-18609.herokuapp.com/burgers"
           image={burger}
           title="Burger MVC"
           category="A full-stack MVC 'burger' logger"
+          
         />
         </div>
       </div>
