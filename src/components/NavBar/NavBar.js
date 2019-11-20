@@ -33,12 +33,12 @@ class NavBar extends Component {
                     >
                     Contact
                     </NavLink>               
-                <a href="https://github.com/J-danger" target="_blank"> 
-                <img className="NavBarIcons" src={Github} height="75px" width="75px">
+                <a href="https://github.com/J-danger" target="_blank" rel="noopener noreferrer"> 
+                <img className="NavBarIcons" src={Github} alt="Github" height="75px" width="75px">
                 </img>
                 </a>
-                 <a href="https://www.linkedin.com/in/stephen-howe-23a581127/" target="_blank"> 
-                <img className="NavBarIcons" src={Linkedin} height="75px" width="75px">
+                 <a href="https://www.linkedin.com/in/stephen-howe-23a581127/" target="_blank" rel="noopener noreferrer"> 
+                <img className="NavBarIcons" src={Linkedin} alt="Linkedin" height="75px" width="75px">
                 </img>
                 </a>
                 </div>
