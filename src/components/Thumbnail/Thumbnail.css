@@ -1,10 +1,9 @@
 .project {
-float: left;
 margin: 20px;
 word-wrap: break-word;
 width: 200px;
 text-align: left;
-position: relative;
+position: static;
 border: solid black 2px;
 overflow: hidden;
 border-radius: 3%;
@@ -12,7 +11,7 @@ box-shadow: 0 3px 6px #000000, 0 3px 6px #000000;
 -webkit-transition: -webkit-transform .4s ease-in-out;
 transition:         transform .4s ease-in-out;
 background-color: rgba(0, 0, 0, 0.75); 
-
+display:inline-block
 }
 
 
