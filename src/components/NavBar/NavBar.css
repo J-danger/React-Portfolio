@@ -19,9 +19,14 @@
    
 }
 
+.NavBarIcons {
+    float: right;
+    margin-bottom: 10px;
+}
+
 #NavBarLinks-container{
     /* text-align: center; */
-    text-align: center;
+    
     
 }
 
@@ -29,16 +34,29 @@
     background: transparent
 }
 
-#NavBar {
-    position: flex;
-    
-    
-}
 
-@media only screen and (max-width: 500){ 
+
+@media only screen and (max-width: 500px){ 
     .NavBarLinks  {
         margin: 5px;
     }
+    }
+
+@media only screen and (max-width: 540px){   
+    .NavBarIcons {
+        float: none;
+        text-align: center;        
+    }
+    #NavBarLinks-container{
+        text-align: center;
+    }
+    .NavBarLinks  { 
+    font-size: 20px; 
+    }    
+    .active {       
+    font-size: 25px;    
+   
+}
     }
 
 @media only screen and (max-width: 700px){ 

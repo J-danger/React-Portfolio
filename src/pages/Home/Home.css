@@ -11,7 +11,13 @@ body {
 #myName {
     color: black;
 }
-html { height:100%; }
+html {
+     height:100%; 
+}
+
+
+
+
 
 
 .layer {
@@ -28,7 +34,7 @@ html { height:100%; }
 }
 
 #aboutMe-container {
-    margin: 40px auto;
+    margin: 10% auto;
     width: 40%;
     background-color: rgba(0, 0, 0, 0.50);
     color: white;

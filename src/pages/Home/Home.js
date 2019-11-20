@@ -9,11 +9,11 @@ function Home(props) {
    <>
     <div className="layer">
       <NavBar/> 
-<div className="animated fadeIn fast">
-     <div id="aboutMe-container">
+      <div id="aboutMe-container">
+    {/* <div className="animated fadeIn fast"> */}
 
       <h1>test</h1>
-</div>
+      {/* </div> */}
      </div>
      
     </div>
