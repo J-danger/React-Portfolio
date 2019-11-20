@@ -1,5 +1,4 @@
 import React, { Component } from "react"
-import Home from "../Home/Home"
 import Particles from "react-particles-js";
 import Popup from "../../components/Popup/Popup"
 import "./Landing.css"

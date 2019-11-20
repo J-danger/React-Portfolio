@@ -1,15 +1,20 @@
 import React from "react"
 import NavBar from "../../components/NavBar/NavBar"
 import Particles from "react-particles-js";
-import Landing from "../Landing/Landing"
 import "./Home.css"
  
 function Home(props) {
   return (    
          
    <>
-    <div classname="layer">
+    <div className="layer">
       <NavBar/> 
+     <div id="aboutMe-container">
+
+
+      <h1>test</h1>
+
+     </div>
      
     </div>
     <Particles

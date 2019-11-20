@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Home from "./pages/Home/Home"
 import Projects from "./pages/Projects/Projects"
 import Contact from "./pages/Contact/Contact"
@@ -12,20 +12,16 @@ function App() {
   return (
 
     <BrowserRouter>
-      
-      <div className="App">
-       
-        <Switch>
-            <Route exact path="/" component={Landing}/> 
-            <Route exact path="/home" component={Home}/> 
-            <Route exact path="/Projects"  component={Projects}  />     
-            <Route exact path="/Contact" component={Contact}  />
-          </Switch>
-      </div>
-     
-    </BrowserRouter>
+    <div className="App">
+    <Switch>
+        <Route exact path="/" component={Landing}/> 
+        <Route exact path="/home" component={Home}/> 
+        <Route exact path="/Projects"  component={Projects}  />     
+        <Route exact path="/Contact" component={Contact}  />
+    </Switch>
+    </div>
+  </BrowserRouter>
   )
 }
-
 
 export default App;

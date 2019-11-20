@@ -1,6 +1,5 @@
 import React, { Component } from "react"
 import Particles from "react-particles-js";
-import axios from "axios"
 import ContactForm from "../../components/ContactForm/ContactForm"
 import NavBar from "../../components/NavBar/NavBar"
 import "./Contact.css"
@@ -11,7 +10,7 @@ class Contact extends Component {
   render(){
   return (
     <>
-      <div class="layer">
+      <div className="layer">
         <NavBar/>
         <div className="animated fadeIn slow">
           <div id="contact-form">

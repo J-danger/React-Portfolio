@@ -13,8 +13,8 @@ function Projects(props) {
     <div>
       <div className="layer">
       <NavBar />
-      
-      <div className="cards">
+      <div className="animated fadeIn fast">
+      <div className="cards-container">
         <div className="centerwrapper">
         <Thumbnail
           link="https://infinite-eyrie-10837.herokuapp.com"
@@ -42,6 +42,7 @@ function Projects(props) {
         />
         </div>
       </div>
+    </div>
     </div>
     <Particles
 params={{

@@ -1,18 +1,17 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import "./Thumbnail.css"
 
  
 function Thumbnail(props) {
   return (
-    <div className="animated fadeIn fast">
-        <div className="wrapper">
+    <>
+       
             <div className="project">
                 <a href={props.link}>
                     <div className="project-image">
                     <img 
                         src={props.image} 
-                        alt="Project Image" 
+                        alt="Project" 
                         height="200px" 
                         width="200px"
                     />
@@ -29,8 +28,8 @@ function Thumbnail(props) {
                     </div>
                 </a>
             </div>
-        </div>
-    </div>
+        
+    </>
   )
 }
  

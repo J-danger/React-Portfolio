@@ -1,5 +1,5 @@
 .NavBarLinks  {      
-    margin: 20px;
+    margin: 40px;
     color: whitesmoke;    
     font-size: 25px;
     text-shadow: 0 1px 1px whitesmoke, 0 1px 1px whitesmoke;
@@ -7,13 +7,16 @@
     }
 .NavBarLinks:hover {
     text-decoration: none;    
-    color: whitesmoke;
+    color: whitesmoke ;     
 }
 
 .active {
-    text-decoration: none;    
-    font-size: 40px;
+    text-decoration: none;   
+    font-size: 35px;
+    margin-left: 5px;
+    /* color: #fd5e53  */
     
+   
 }
 
 #NavBarLinks-container{
@@ -27,7 +30,8 @@
 }
 
 #NavBar {
-    position: relative;
+    position: flex;
+    
     
 }
 

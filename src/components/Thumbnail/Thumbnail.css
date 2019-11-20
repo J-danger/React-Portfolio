@@ -3,6 +3,7 @@ float: left;
 margin: 20px;
 word-wrap: break-word;
 width: 200px;
+text-align: left;
 position: relative;
 border: solid black 2px;
 overflow: hidden;
