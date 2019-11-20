@@ -11,7 +11,7 @@ import "./Projects.css"
 function Projects(props) {
   return (
     <div>
-      <div class="layer">
+      <div className="layer">
       <NavBar />
       
       <div className="cards">

@@ -8,7 +8,7 @@ function Home(props) {
   return (    
          
    <>
-    <div class="layer">
+    <div classname="layer">
       <NavBar/> 
      
     </div>

@@ -5,7 +5,7 @@ import "./Thumbnail.css"
  
 function Thumbnail(props) {
   return (
-    <div className="animated fadeIn slow">
+    <div className="animated fadeIn fast">
         <div className="wrapper">
             <div className="project">
                 <a href={props.link}>
